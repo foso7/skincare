@@ -1,0 +1,184 @@
+/* Set the background color */
+body {
+    background-color: white; /* Soft pink background color */
+    background-image:url('image/pic51.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ff7f50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: space-between;
+}
+header img.logo {
+    height: 50px;
+    margin-right: auto; /* Align logo to the left */
+}
+h3{
+   display: flex; 
+}
+/*container*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/*navigation menu*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*hero*/
+
+/* Additional optional styles for responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack logo and header on small screens */
+        gap: 5px;
+    }
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* Hover effect on images */
+ img:hover {
+    transform: scale(1.05);
+}
+h3{
+    color: black;
+    text-align: center;
+    text-decoration-color: black;
+}
+
+
+
+/* Center and style the content */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+#featured-products {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: silver;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+/* Container styling for product grid */
+.product-grid {
+    display: flex;
+    gap: 10px; /* Adds space between each product */
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows videos to wrap if screen is too small */
+}
+
+.product {
+    width: 400px; /* Sets a fixed width for each product */
+    text-align: center;
+}
+
+.product video {
+    width: 100%; /* Ensures video fills the width of the container */
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .product-grid {
+        flex-direction: column; /* Stack videos on smaller screens */
+    }
+}
+.service {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}#services {
+    padding: 40px 0;
+    background: #f9f9f9;
+    flex-direction: column;
+    align-items: center;
+}
+.service-list {
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #ff7f50;
+    color: white;
+    
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: black;
+}

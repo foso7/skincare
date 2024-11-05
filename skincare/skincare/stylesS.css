@@ -1,0 +1,369 @@
+/*body*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #ff7f50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+h3{
+   display: flex; 
+}
+/*container*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/*navigation menu*/
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*hero*/
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #f9f9f9;
+}
+
+.hero .button {
+    background: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*products*/
+#products {
+    padding: 40px 0;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+.product img {
+    width: 100%;
+}
+
+/*price*/
+.price {
+    font-weight: bold;
+    color: #ff6347;
+}
+/*about*/
+
+.about {
+    display: flex;
+    margin: 10px;
+    width: 200px;
+
+}/* Container styling for video gallery */
+#video-gallery {
+    display: flex;
+    flex-direction: row; /* Ensure items align in a row */
+    gap: 20px; /* Space between video sections */
+    justify-content: space-between; /* Space out the videos evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens if needed */
+    padding: 10px;
+}
+
+/* Styling each video section */
+.video-section {
+    flex:  30%; /* Each video section takes up 30% of the container's width */
+    text-align: center;
+    max-width: 300px; /* Max width to prevent stretching */
+}
+
+.video-section video {
+    width: 100%; /* Full width for the video within its container */
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #video-gallery {
+        flex-direction: column; /* Stack videos vertically on small screens */
+    }
+}
+
+}
+
+
+/*team*/
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+}
+/*services*/
+
+
+#services {
+    padding: 40px 0;
+    background: #f9f9f9;
+}
+.service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*contact*/
+#contact {
+    padding: 40px 0;
+    background: #f9f9f9;
+}
+
+
+/* Center the contact-us container */
+.contact-us {
+    background-color: white;
+    padding: 40px;
+    max-width: 600px;
+    margin: 30px auto; /* Center horizontally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ff7f50; /* Black background for header */
+    color: white; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+    width: 400%;
+    position: relative; /* Keeps header at the top */
+}
+
+/* Center the contact-us container */
+.contact-us {
+    background-color: white;
+    padding: 40px;
+    max-width: 600px;
+    margin: 30px auto; /* Center horizontally */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}li {
+            display: inline-flex;
+            margin-right: 20px;
+            
+
+        }  h2 {
+            color: black;
+            text-align: none;
+        }  img {
+            width: 15px;
+            border-radius: 10px;
+            display: flex;
+            margin: 20px auto;
+        }
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #ff7f50;
+    color: white;
+    width: 400%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Ensure main content is centered vertically */
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space out header, content, footer */
+}
+
+}
+
+/* Ensure main content is centered vertically */
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space out header, content, footer */
+}
+    
+h2 {
+    flex-direction: row;
+    justify-content: space-between; /* Space out header, content, footer */
+    color: black;
+    text-align:center ; /* Fixed alignment */
+}
+
+img {
+    flex-direction: row;
+    width: 100px;
+    border-radius: 10px;
+    display: flex; /* Corrected display property */
+    margin: 20px auto;
+}
+}
+
+.contact-container button {
+    background-color: black; /* Updated to match header */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.image{
+    display: flex;
+}
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.contact-us h2 {
+    font-size: 36px;
+    color: lightblue;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333;
+    color: black;
+    border: solid #ccc;
+}
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}    
+.contact img{
+    flex-direction: row;
+    display: column;
+    width: 500px;
+}
+
+/
+/*projects*/
+
+#projects {
+    padding: 40px 0;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin:15px;
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+}
+.project video{
+     width: 100%;
+ }
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #ff7f50;
+    color: white;
+    
+}
